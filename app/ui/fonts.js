@@ -8,6 +8,5 @@ export const inter = Inter({
 
 export const dm_serif_display = DM_Serif_Display({
     subsets:['latin'],
-    display:['swap'],
-    weight:['400','700']
+    weight:['400']
 })

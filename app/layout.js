@@ -1,13 +1,16 @@
-import { Inter } from "next/font/google";
-import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+import "../app/ui/globals.css";
+import Navbar from "./ui/home/navbar";
+import {inter}  from "../app/ui/fonts";
 
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${inter.className} antialiased font-bold bg-[#222121] text-white`}>
+        <Navbar/>
+        {children}
+        </body>
     </html>
   );
 }

@@ -1,7 +1,7 @@
 import {dm_serif_display} from '@/app/ui/fonts'
 export default function Hero(){
     return(
-       <section className="my-[15px]">
+       <section id="hero" className="my-[15px]">
         <div className="px-[15px] md:px-[30px] ">
             
             <p className="text-white font-black  text-xl md:text-2xl">Hi! 👋 </p>
